@@ -4,7 +4,7 @@
 #
 Name     : libgusb
 Version  : 0.2.11
-Release  : 2
+Release  : 3
 URL      : https://github.com/hughsie/libgusb/archive/gusb_0_2_11.tar.gz
 Source0  : https://github.com/hughsie/libgusb/archive/gusb_0_2_11.tar.gz
 Summary  : GUsb is a GLib binding for libusb1
@@ -23,6 +23,7 @@ BuildRequires : pkgconfig(glib-2.0)
 BuildRequires : pkgconfig(gobject-2.0)
 BuildRequires : pkgconfig(gthread-2.0)
 BuildRequires : pkgconfig(libusb-1.0)
+BuildRequires : vala-dev
 
 %description
 GUsb is a GObject wrapper for libusb1 that makes it easy to do
@@ -77,12 +78,12 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1505683172
+export SOURCE_DATE_EPOCH=1523661662
 %autogen --disable-static
-make V=1  %{?_smp_mflags}
+make  %{?_smp_mflags}
 
 %install
-export SOURCE_DATE_EPOCH=1505683172
+export SOURCE_DATE_EPOCH=1523661662
 rm -rf %{buildroot}
 %make_install
 
@@ -97,6 +98,7 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 /usr/lib64/girepository-1.0/GUsb-1.0.typelib
 /usr/share/gir-1.0/*.gir
+/usr/share/vala/vapi/gusb.vapi
 
 %files dev
 %defattr(-,root,root,-)
