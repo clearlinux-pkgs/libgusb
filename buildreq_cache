@@ -1,0 +1,4 @@
+0.3.1
+docbook-xml
+libusb-dev
+pkgconfig(libusb-1.0)

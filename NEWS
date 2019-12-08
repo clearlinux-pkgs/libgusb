@@ -1,3 +1,28 @@
+Version 0.3.1
+~~~~~~~~~~~~~
+Released: 2018-11-16
+
+New Features:
+ - Add g_usb_device_get_spec() (Richard Hughes)
+ - Add g_usb_version_string() for fwupd (Richard Hughes)
+
+Bugfixes:
+ - Add -Wswitch-enum (Benjamin Berg)
+ - Fix GI length introspection annotations (grindhold)
+ - Make gir generation optional (maxice8)
+
+Version 0.3.0
+~~~~~~~~~~~~~
+Released: 2018-02-14
+
+New Features:
+ - Add Travis integration (Richard Hughes)
+ - Allow changing the path to usb.ids file (Ting-Wei Lan)
+ - Port to the Meson build system (Richard Hughes)
+
+Bugfixes:
+ - Replace libusb-1.0/libusb.h with libusb.h (Ting-Wei Lan)
+
 Version 0.2.11
 ~~~~~~~~~~~~~~
 Released: 2017-07-24
@@ -14,7 +39,7 @@ Released: 2017-04-10
 
 Bugfixes:
  - Correctly detect removed devices when rescanning (Richard Hughes)
- - Fix a memory leak when using control tranfers (Richard Hughes)
+ - Fix a memory leak when using control transfers (Richard Hughes)
  - Fix gtk-doc build when builddir != srcdir (Ting-Wei Lan)
  - Fix symbol version table up to version 0.2.9 (Dominique Leuenberger)
 
@@ -244,7 +269,7 @@ New Features:
  - GUsbDeviceList: Ref the device returned by g_usb_device_list_get_dev_by_bus_n_address() (Richard Hughes)
  - GUsbDevice: Make several methods cancellable (Debarshi Ray)
  - GUsbDevice: Move setting config / claiming of interface to their own methods (Hans de Goede)
- - GUsbDevice: Set the GUsbContext for instal use in GUsbDevice (Richard Hughes)
+ - GUsbDevice: Set the GUsbContext for install use in GUsbDevice (Richard Hughes)
  - GUsbDevice: Turn into a wrapper around libusb_device (Hans de Goede)
  - GUsbSource: Add a GError parameter to g_usb_source_new() (Richard Hughes)
  - GUsbSource: g_usb_source_new won't return NULL (Debarshi Ray)
