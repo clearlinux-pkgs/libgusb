@@ -4,7 +4,7 @@
 #
 Name     : libgusb
 Version  : 0.3.2
-Release  : 8
+Release  : 9
 URL      : https://github.com/hughsie/libgusb/archive/0.3.2/libgusb-0.3.2.tar.gz
 Source0  : https://github.com/hughsie/libgusb/archive/0.3.2/libgusb-0.3.2.tar.gz
 Summary  : GObject wrapper for libusb1
