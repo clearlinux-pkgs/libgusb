@@ -1,3 +1,56 @@
+Version 0.3.6
+~~~~~~~~~~~~~
+Released: 2021-03-12
+
+New Features:
+ - Add g_usb_device_get_string_descriptor_bytes() (Richard Hughes)
+
+Bugfixes:
+ - Properly set dylib versions on darwin (Caleb Xu)
+ - Fix cancellation if cancellable is already cancelled (Benjamin Berg)
+
+Version 0.3.5
+~~~~~~~~~~~~~
+Released: 2020-07-30
+
+Notes:
+
+New Features:
+ - Add a way to get iConfiguration (Benson Leung)
+
+Bugfixes:
+ - Allow building GtkDoc when building as a subproject (Richard Hughes)
+ - Fix version script to be more portable (Laurent Bigonville, Ting-Wei Lan)
+ - Include methods on plain structs in the version script (Simon McVittie)
+
+Version 0.3.4
+~~~~~~~~~~~~~
+Released: 2020-02-20
+
+Notes:
+ - This fixes the symbol version for g_usb_version_string() to be in the right
+   place, so update this library alongside with external programs if you've
+   already started using this symbol for example in fwupd. We've put a mechanism
+   in place so this kind of thing can't happen again. Sorry!
+
+New Features:
+ - Validate the exported symbol list during check (Richard Hughes)
+
+Bugfixes:
+ - Include the USB bus in the generated platform_id (Richard Hughes)
+
+Version 0.3.3
+~~~~~~~~~~~~~
+Released: 2020-01-30
+
+New Features:
+ - Add a thin glib wrapper around libusb_endpoint_descriptor (Emmanuel Pacaud)
+
+Bugfixes:
+ - Fix high number of wakeups when checking the GUsbContext (Richard Hughes)
+ - Use '#pragma once' to reduce boilerplate (Richard Hughes)
+ - Wrap the upstream libusb_strerror() (Richard Hughes)
+
 Version 0.3.2
 ~~~~~~~~~~~~~
 Released: 2020-01-06
