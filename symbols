@@ -11,6 +11,7 @@ libgusb.so.2:LIBGUSB_0.3.1
 libgusb.so.2:LIBGUSB_0.3.3
 libgusb.so.2:LIBGUSB_0.3.5
 libgusb.so.2:LIBGUSB_0.3.6
+libgusb.so.2:LIBGUSB_0.3.8
 libgusb.so.2:g_usb_context_enumerate
 libgusb.so.2:g_usb_context_error_quark
 libgusb.so.2:g_usb_context_find_by_bus_address
@@ -58,6 +59,7 @@ libgusb.so.2:g_usb_device_get_serial_number_index
 libgusb.so.2:g_usb_device_get_spec
 libgusb.so.2:g_usb_device_get_string_descriptor
 libgusb.so.2:g_usb_device_get_string_descriptor_bytes
+libgusb.so.2:g_usb_device_get_string_descriptor_bytes_full
 libgusb.so.2:g_usb_device_get_type
 libgusb.so.2:g_usb_device_get_vid
 libgusb.so.2:g_usb_device_get_vid_as_str
