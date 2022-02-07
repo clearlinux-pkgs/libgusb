@@ -8,6 +8,7 @@ libgusb.so.2:LIBGUSB_0.2.5
 libgusb.so.2:LIBGUSB_0.2.8
 libgusb.so.2:LIBGUSB_0.2.9
 libgusb.so.2:LIBGUSB_0.3.1
+libgusb.so.2:LIBGUSB_0.3.10
 libgusb.so.2:LIBGUSB_0.3.3
 libgusb.so.2:LIBGUSB_0.3.5
 libgusb.so.2:LIBGUSB_0.3.6
@@ -19,12 +20,14 @@ libgusb.so.2:g_usb_context_find_by_platform_id
 libgusb.so.2:g_usb_context_find_by_vid_pid
 libgusb.so.2:g_usb_context_get_devices
 libgusb.so.2:g_usb_context_get_flags
+libgusb.so.2:g_usb_context_get_hotplug_poll_interval
 libgusb.so.2:g_usb_context_get_main_context
 libgusb.so.2:g_usb_context_get_source
 libgusb.so.2:g_usb_context_get_type
 libgusb.so.2:g_usb_context_new
 libgusb.so.2:g_usb_context_set_debug
 libgusb.so.2:g_usb_context_set_flags
+libgusb.so.2:g_usb_context_set_hotplug_poll_interval
 libgusb.so.2:g_usb_context_set_main_context
 libgusb.so.2:g_usb_context_wait_for_replug
 libgusb.so.2:g_usb_device_bulk_transfer
