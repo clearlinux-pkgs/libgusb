@@ -13,6 +13,10 @@ libgusb.so.2:LIBGUSB_0.3.3
 libgusb.so.2:LIBGUSB_0.3.5
 libgusb.so.2:LIBGUSB_0.3.6
 libgusb.so.2:LIBGUSB_0.3.8
+libgusb.so.2:LIBGUSB_0.4.0
+libgusb.so.2:g_usb_bos_descriptor_get_capability
+libgusb.so.2:g_usb_bos_descriptor_get_extra
+libgusb.so.2:g_usb_bos_descriptor_get_type
 libgusb.so.2:g_usb_context_enumerate
 libgusb.so.2:g_usb_context_error_quark
 libgusb.so.2:g_usb_context_find_by_bus_address
@@ -24,7 +28,9 @@ libgusb.so.2:g_usb_context_get_hotplug_poll_interval
 libgusb.so.2:g_usb_context_get_main_context
 libgusb.so.2:g_usb_context_get_source
 libgusb.so.2:g_usb_context_get_type
+libgusb.so.2:g_usb_context_load
 libgusb.so.2:g_usb_context_new
+libgusb.so.2:g_usb_context_save
 libgusb.so.2:g_usb_context_set_debug
 libgusb.so.2:g_usb_context_set_flags
 libgusb.so.2:g_usb_context_set_hotplug_poll_interval
@@ -39,7 +45,14 @@ libgusb.so.2:g_usb_device_control_transfer
 libgusb.so.2:g_usb_device_control_transfer_async
 libgusb.so.2:g_usb_device_control_transfer_finish
 libgusb.so.2:g_usb_device_error_quark
+libgusb.so.2:g_usb_device_event_get_bytes
+libgusb.so.2:g_usb_device_event_get_id
+libgusb.so.2:g_usb_device_event_get_status
+libgusb.so.2:g_usb_device_event_get_type
+libgusb.so.2:g_usb_device_event_set_bytes
 libgusb.so.2:g_usb_device_get_address
+libgusb.so.2:g_usb_device_get_bos_descriptor
+libgusb.so.2:g_usb_device_get_bos_descriptors
 libgusb.so.2:g_usb_device_get_bus
 libgusb.so.2:g_usb_device_get_children
 libgusb.so.2:g_usb_device_get_configuration
@@ -48,6 +61,7 @@ libgusb.so.2:g_usb_device_get_custom_index
 libgusb.so.2:g_usb_device_get_device_class
 libgusb.so.2:g_usb_device_get_device_protocol
 libgusb.so.2:g_usb_device_get_device_subclass
+libgusb.so.2:g_usb_device_get_events
 libgusb.so.2:g_usb_device_get_interface
 libgusb.so.2:g_usb_device_get_interfaces
 libgusb.so.2:g_usb_device_get_manufacturer_index
@@ -69,6 +83,7 @@ libgusb.so.2:g_usb_device_get_vid_as_str
 libgusb.so.2:g_usb_device_interrupt_transfer
 libgusb.so.2:g_usb_device_interrupt_transfer_async
 libgusb.so.2:g_usb_device_interrupt_transfer_finish
+libgusb.so.2:g_usb_device_invalidate
 libgusb.so.2:g_usb_device_list_coldplug
 libgusb.so.2:g_usb_device_list_find_by_bus_address
 libgusb.so.2:g_usb_device_list_find_by_vid_pid

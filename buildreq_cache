@@ -1,4 +1,6 @@
-0.3.10
-docbook-xml
+0.4.0
+json-glib-dev
 libusb-dev
+pkgconfig(json-glib-1.0)
 pkgconfig(libusb-1.0)
+pkgconfig(umockdev-1.0)
