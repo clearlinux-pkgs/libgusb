@@ -14,6 +14,7 @@ libgusb.so.2:LIBGUSB_0.3.5
 libgusb.so.2:LIBGUSB_0.3.6
 libgusb.so.2:LIBGUSB_0.3.8
 libgusb.so.2:LIBGUSB_0.4.0
+libgusb.so.2:LIBGUSB_0.4.1
 libgusb.so.2:g_usb_bos_descriptor_get_capability
 libgusb.so.2:g_usb_bos_descriptor_get_extra
 libgusb.so.2:g_usb_bos_descriptor_get_type
@@ -29,13 +30,16 @@ libgusb.so.2:g_usb_context_get_main_context
 libgusb.so.2:g_usb_context_get_source
 libgusb.so.2:g_usb_context_get_type
 libgusb.so.2:g_usb_context_load
+libgusb.so.2:g_usb_context_load_with_tag
 libgusb.so.2:g_usb_context_new
 libgusb.so.2:g_usb_context_save
+libgusb.so.2:g_usb_context_save_with_tag
 libgusb.so.2:g_usb_context_set_debug
 libgusb.so.2:g_usb_context_set_flags
 libgusb.so.2:g_usb_context_set_hotplug_poll_interval
 libgusb.so.2:g_usb_context_set_main_context
 libgusb.so.2:g_usb_context_wait_for_replug
+libgusb.so.2:g_usb_device_add_tag
 libgusb.so.2:g_usb_device_bulk_transfer
 libgusb.so.2:g_usb_device_bulk_transfer_async
 libgusb.so.2:g_usb_device_bulk_transfer_finish
