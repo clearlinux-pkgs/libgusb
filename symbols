@@ -17,6 +17,7 @@ libgusb.so.2:LIBGUSB_0.4.0
 libgusb.so.2:LIBGUSB_0.4.1
 libgusb.so.2:LIBGUSB_0.4.3
 libgusb.so.2:LIBGUSB_0.4.4
+libgusb.so.2:LIBGUSB_0.4.5
 libgusb.so.2:g_usb_bos_descriptor_get_capability
 libgusb.so.2:g_usb_bos_descriptor_get_extra
 libgusb.so.2:g_usb_bos_descriptor_get_type
@@ -54,6 +55,7 @@ libgusb.so.2:g_usb_device_control_transfer_finish
 libgusb.so.2:g_usb_device_error_quark
 libgusb.so.2:g_usb_device_event_get_bytes
 libgusb.so.2:g_usb_device_event_get_id
+libgusb.so.2:g_usb_device_event_get_rc
 libgusb.so.2:g_usb_device_event_get_status
 libgusb.so.2:g_usb_device_event_get_type
 libgusb.so.2:g_usb_device_event_set_bytes
@@ -64,6 +66,7 @@ libgusb.so.2:g_usb_device_get_bus
 libgusb.so.2:g_usb_device_get_children
 libgusb.so.2:g_usb_device_get_configuration
 libgusb.so.2:g_usb_device_get_configuration_index
+libgusb.so.2:g_usb_device_get_created
 libgusb.so.2:g_usb_device_get_custom_index
 libgusb.so.2:g_usb_device_get_device_class
 libgusb.so.2:g_usb_device_get_device_protocol
