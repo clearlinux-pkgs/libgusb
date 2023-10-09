@@ -18,6 +18,7 @@ libgusb.so.2:LIBGUSB_0.4.1
 libgusb.so.2:LIBGUSB_0.4.3
 libgusb.so.2:LIBGUSB_0.4.4
 libgusb.so.2:LIBGUSB_0.4.5
+libgusb.so.2:LIBGUSB_0.4.7
 libgusb.so.2:g_usb_bos_descriptor_get_capability
 libgusb.so.2:g_usb_bos_descriptor_get_extra
 libgusb.so.2:g_usb_bos_descriptor_get_type
@@ -72,6 +73,8 @@ libgusb.so.2:g_usb_device_get_device_class
 libgusb.so.2:g_usb_device_get_device_protocol
 libgusb.so.2:g_usb_device_get_device_subclass
 libgusb.so.2:g_usb_device_get_events
+libgusb.so.2:g_usb_device_get_hid_descriptor_default
+libgusb.so.2:g_usb_device_get_hid_descriptors
 libgusb.so.2:g_usb_device_get_interface
 libgusb.so.2:g_usb_device_get_interfaces
 libgusb.so.2:g_usb_device_get_manufacturer_index

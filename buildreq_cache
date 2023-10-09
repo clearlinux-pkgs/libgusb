@@ -1,4 +1,4 @@
-0.4.6
+0.4.7
 json-glib-dev
 libusb-dev
 pkgconfig(json-glib-1.0)
